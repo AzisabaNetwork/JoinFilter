@@ -29,6 +29,7 @@ public class JoinFilter extends JavaPlugin {
             jedisBox.close();
         }
         saveDefaultConfig();
+        reloadConfig();
         jedisBox = new JedisBox(
                 getConfig().getString("redis.hostname"),
                 getConfig().getInt("redis.port"),
