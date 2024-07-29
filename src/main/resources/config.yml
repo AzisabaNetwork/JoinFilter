@@ -1,0 +1,9 @@
+redis:
+  hostname: localhost
+  port: 6379
+  username: null
+  password: null
+group-name: default
+server-name: default
+kick-if-not-registered: false
+kick-message: "You are not allowed to join this server."

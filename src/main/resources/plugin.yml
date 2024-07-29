@@ -1,0 +1,7 @@
+name: JoinFilter
+main: net.azisaba.joinfilter.JoinFilter
+version: @version@
+api-version: 1.13
+commands:
+  joinfilter:
+    permission: joinfilter.command
